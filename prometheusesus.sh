@@ -16,11 +16,11 @@ wget https://github.com/prometheus/prometheus/releases/download/v2.53.2/promethe
 
 # Passo 2: Descompacte o arquivo do agente
 echo "Descompactando o arquivo..."
-tar xzf prometheus-3.0.0-beta.0.linux-amd64.tar.gz
+tar xzf prometheus-2.53.2.linux-amd64.tar.gz
 
 # Passo 3: Mova os arquivos para o diretório apropriado
 echo "Movendo arquivos para /etc/prometheus..."
-sudo mv prometheus-3.0.0-beta.0.linux-amd64 /etc/prometheus
+sudo mv prometheus-2.53.2.linux-amd64.tar.gz /etc/prometheus
 
 # Passo 4: Crie o arquivo prometheus.service
 echo "Criando o arquivo de serviço prometheus.service..."
